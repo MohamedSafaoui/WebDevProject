@@ -1,0 +1,79 @@
+/* Purpose: basic style sheet for web project 2
+Author: Mohamed Safaoui
+*/
+
+img.responsive {
+    max-width:100%;
+    height: auto;
+}
+header, main{
+    padding: 10px;
+    width:100%;
+    text-align: center;
+}
+nav{
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+footer{
+    padding: 10px;
+    border-top: 1px solid #000;
+    width: 100%;
+    text-align: center;
+}
+
+#player {
+  margin: auto;
+  border: 6px solid rgba(153, 255, 0, 0.561);
+  padding: 10px;
+}
+
+
+a:hover{
+    color: red;
+}
+h1{
+    color: rgb(0, 42, 255);
+    background-color: rgba(153, 255, 0, 0.561);
+    padding: 20px;
+    margin: 20px;
+
+}
+h3{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+img{
+    border: 10px;
+    border-color: rgba(153, 255, 0, 0.561);
+    border-style:solid;
+}
+hr{
+   size: 20px;
+   width: 350px;
+}
+ 
+ul {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+table{
+    margin: auto;
+    border: 6px dashed rgba(153, 255, 0, 0.561);
+    width: 100%;
+    border-spacing: 0;
+}
+td{
+     border-style: none;
+    padding: 0.5em;
+    width:auto; 
+}
+ol{
+    
+}

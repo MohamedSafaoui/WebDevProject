@@ -1,0 +1,82 @@
+/* CSS Style Sheet for the Week 4 Homework Assignment */
+/* Mohamed Safaoui*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+table {
+  border: none;
+  width: 750px;
+  padding: 0;
+  margin: auto;
+}
+
+h1 {
+  color: #0066cc; /*cool blue*/
+}
+
+h3 {
+  color: #0066cc;
+  background-color: #eee;
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 150px;
+}
+h5 {
+  color: black;
+  font-style: italic;
+}
+hr {
+  border: none;
+  border-top: 1px dotted black;
+  height: 1px;
+}
+img {
+  float: right;
+  border: 1px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  margin: 0px 5px 10px 10px;
+}
+a:link {
+  color: #0066cc;
+}
+a:visited {
+  color: #0066cc;
+}
+a:hover {
+  text-decoration: none;
+  color: yellow;
+  font-weight: bold;
+}
+a:active {
+  text-decoration: underline;
+  color: #0066cc;
+}
+/* travel tip*/
+.travel{
+  background-color: #ff9900;
+  padding: 5px 5px 5px 5px;
+  border: 1px black solid;
+  margin: 40px 5px 5px 0px;
+}
+.quote{
+font-style: italic;
+margin: 10px 10px 10px 10px;
+color: #666666;
+}
+#copyright{
+  font-size: 9px;
+  font-style: italic;
+  text-align: center;
+} 
+/*list styles*/
+ul li {
+  list-style-type: square;
+   color: #666666;
+   list-style-position: inside;
+}
+
+
+

@@ -1,0 +1,1 @@
+document.writeln("<a href= deafult.html>Home Page</a> - <a href= golfClubs.html>Golf Clubs</a> - <a href= golfBalls.html >Golf Balls</a> - <a href=golfTips.html>Golf Tips</a>")
